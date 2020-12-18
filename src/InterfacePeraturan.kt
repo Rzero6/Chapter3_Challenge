@@ -4,5 +4,10 @@ interface InterfacePeraturan {
         println("\nHasil: ")
         println("?????")
     }
+    fun opening() {
+        println("==========================")
+        println("GAME SUIT TERMINAL VERSION")
+        println("==========================")
+    }
 
 }

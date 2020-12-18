@@ -1,4 +1,12 @@
 open class Peraturan: InterfacePeraturan {
+    override fun opening() {
+
+        println("\n==========================")
+        println("GAME SUIT TERMINAL VERSION")
+        println("==========================")
+
+
+    }
     override fun startinggame(pemain1:String, pemain2:String){
 
         lateinit var hasil: String
